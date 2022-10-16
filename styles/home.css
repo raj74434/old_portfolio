@@ -88,24 +88,29 @@ section {
     margin: 5px 0;
   }
   .home .home-content .text-3 span {
-    color: orange;
+    color: skyblue;
     font-weight: 500;
   }
   .resume_btn {
+    font-size: 25px;
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid white;
+   
     padding: 14px 50px;
     text-decoration: none;
-    border-radius: 6px;
-    color: orange;
+    /* border-radius: 6px; */
+    border: transparent;
+    border-bottom: 3px solid white;
+    color: #859a98;
     transition: 0.5s;
   
   }
   .resume_btn:hover {
-    border: 1px solid rgb(54, 62, 182);
-    color: rgb(54, 62, 182);
+    border: transparent;
+    border-bottom: 3px solid skyblue;
+    color: skyblue;
+    font-size: 25px;
     background: none;
   }
   
@@ -138,7 +143,7 @@ section {
     margin-bottom: 10px;
   }
   .about .about-content .right .text span {
-    color: red;
+    color: #859a98;
     
   }
   .about .about-content .right p {
@@ -161,9 +166,10 @@ section {
   
   }
   .resume_btn1:hover {
-    border: 1px solid rgb(54, 62, 182);
-    color: rgb(54, 62, 182);
-    background: none;
+    border: 1px solid skyblue;
+    color: white;
+    /* font-size: ; */
+    background: skyblue;
   }
   
   
