@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="styles/contactme.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://kit.fontawesome.com/3261aecf02.js" crossorigin="anonymous"></script>
-   
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/> 
 </head>
 
 
@@ -157,17 +157,17 @@
     </div>
 
 
-    <h1 style="text-align: center; margin-top: 30px;" >
+    <h1  style="text-align: center; background-color: #1b1e25;" >
         Soft Skills
     </h1>
-    <div id="softskill" >
+    <div style="background-color: #1b1e25;" id="softskill" >
 
     </div> 
 
 
     <!-- ------------  statastics---------------- -->
 
-     <div class="statastics" >
+     <div style="background-color: #1b1e25;"    class="statastics" >
         <h1 >Statastics</h1>
         <div id="stats_in">
             <div>
@@ -190,27 +190,33 @@
     </div>
    
 
-    <div id="git_cal" class="testimonials paralax-mf bg-image" >
+    <div style="background-color: #1b1e25;" id="git_cal" class="testimonials paralax-mf bg-image" >
 
         <h1 style="text-align: center;padding-bottom: 30px;">
             GitHub Calendar
         </h1>
-        <div class="calendar" style="width: 80%;background-color: white;color: black;"> 
+        <div class="calendar" style="width: 80%;background-color: white;color: black;">
             <!-- Loading stuff -->
             Loading the data just for you.
         </div>
-    </div> 
+    </div>
 
     <!------------------------- Porjects-------------------------->
 
     <div id="work" >
+
         <div class="projects">
+
             <h1 class="sub-title" style="text-align:center ;">My Projects</h1>
+
             <div class="project-list">
+                
                 <div class="work">
+                    <div id="projectImg">
                     <img src="images/Monday.com">
+                    </div>
                     <div class="layer">
-                        <h3>Monday.com-Clone</h3>
+                        <h2 style="margin-bottom: 40px;" >Monday - Clone</h2>
                         <p> Tech Stack- HTML , CSS , JAVASCRIPT <br> A platform built for new way for work management
                         </p>
                         <div>
@@ -221,20 +227,23 @@
                         </div>
 
                     </div>
-                    <h2 style="text-align:center ;">Monday.com Clone</h2>
+                    
                 </div>
+                <!-- Cric buzz -->
                 <div class="work">
-                    <img src="images/Ideakart.com">
+                    <div id="projectImg">
+                    <img src="images/Cricbuzz.PNG">
+                </div>
                     <div class="layer">
-                        <h3>Ideakart Clone</h3>
+                        <h2 style="margin-bottom: 40px;">CricBuzz - Clone</h2>
                         <p> Tech Stack- HTML , CSS , JAVASCRIPT<br> Book shoping and selling site</p>
                         <div>
                             <a href="https://github.com/Ankur982/U2-CW-Ideacart_Project" target="_blank"
                                 rel="noopener noreferrer">GitHub</a>
-                            <a href="https://ideakartcom.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a>
+                            <a href="https://hilarious-kringle-763b7e.netlify.app/home.html" target="_blank" rel="noopener noreferrer">Live</a>
                         </div>
                     </div>
-                    <h2 style="text-align:center ;">CriccBuzz</h2>
+                    
 
                 </div>
 
@@ -243,7 +252,7 @@
         </div>
     </div>
     <!------------------------- Conatct--------------------------->
-    <div id="contact">
+    <div id="contact" >
         <div class="container">
 
             <div class="row">
@@ -317,6 +326,7 @@
 GitHubCalendar(".calendar", "raj74434");
 // or enable responsive functionality
 GitHubCalendar(".calendar", "raj74434", { responsive: true });
+
 
 
    let skill = ["Team Work", "Time Management", "Problem solving", "Adaptable","Empathy"]

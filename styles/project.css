@@ -1,17 +1,30 @@
 
 
 #work{
+   
     width: 100%;
     height: 100%;
     padding:50px 5% 50px 5%;
-    background-color:#161616;
+    background-color:#1b1e25;
     align-items: center;
+    text-align: center;
+}
+#projectImg{
+    height: 220px;
+ cursor: pointer;
+ margin-bottom: 30px;
+}
+#projectImg img{
+    height: 100%;
+    width: 100%;
 }
 .project-list{
     width:80%;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,450px);
     grid-template-rows: auto;
+  
+   
     grid-gap: 40px;
     margin: auto;
     align-items: center;
@@ -19,18 +32,35 @@
     margin-top: 40px;
 
 }
+.project-list{
+    width:80%;
+    display: grid;
+    grid-template-columns: repeat(2,450px);
+    grid-template-rows: auto;
+  
+    grid-gap: 40px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
 .work{
     border-radius: 10px;
     position: relative;
-    overflow: hidden;
+   
+    border-bottom:solid 15px transparent;
 }
+
+
 .work img{
     width: 100%;
     border-radius: 10px;
     display: block;
     transition: transform(0.5s);
 }
-.layer{
+/* .layer{
     width: 100%;
     height: 0;
     background: linear-gradient(rgba(0,0,0,0.6),#00ffc8);
@@ -49,7 +79,7 @@
     font-size: 14px;
     
     transition: height 0.5s;
-}
+} */
 .layer h3{
     font-weight: 500;
     margin-bottom: 20px;
@@ -69,13 +99,18 @@
 }
 
 
-.work:hover img{
+/* .work:hover img{
 transform: scale(1.1);
-}
-.work:hover .layer{
+} */
+/* .work:hover .layer{
     height: 100%;
-}
+} */
 
+.work:hover {
+    
+    border-bottom:15px  solid #1660a5;
+     
+    } 
 
 
 @media  all and (max-width:600px){
