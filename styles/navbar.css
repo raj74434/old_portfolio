@@ -105,7 +105,7 @@ nav .fas {
 
 
 
-@media only screen and (max-width:632px) {
+@media only screen and (max-width:642px) {
 
 
 
@@ -114,7 +114,7 @@ nav .fas {
         /* border: solid green; */
         width:100%;
         height: auto;
-        /* padding: 0 2% 0 2%; */
+        padding: 0 2% 0 2%;
         display: block;
         align-items: center;
         position: fixed;
@@ -159,9 +159,9 @@ nav .fas {
         display: flex;
         position: block;
 
-        /* top: 0; */
+        top: 0;
 
-        /* right: -200px; */
+        right: -200px;
 
         width: 200px;
 
@@ -169,7 +169,7 @@ nav .fas {
 
         /* padding-top: 50px; */
 
-        /* z-index: 2; */
+        z-index: 2;
 
         transition: right 0.5s;
 
