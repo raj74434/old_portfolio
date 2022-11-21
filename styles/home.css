@@ -249,8 +249,29 @@ section {
      {
       font-size: 19px;
     }
+    /* #tempVar{
+      border: solid red;
+      width: auto;
+      font-size: 10px;
+    } */
+    /* #tempVar ul{
+      display: flex;
+      border: solid green;
+      font-size: 10px;
+      width: 100px;
+    } */
     
    
+   
   }
+  /* @media (max-width: 200px) {
+
+    #tempVar{
+      border: solid red;
+      width: 100px;
+      font-size: 20px;
+    }
+
+  } */
   
      
