@@ -21,7 +21,7 @@
 .project-list{
     width:80%;
     display: grid;
-    grid-template-columns: repeat(2,450px);
+    grid-template-columns: repeat(2,350px);
     grid-template-rows: auto;
   
    
@@ -35,7 +35,7 @@
 .project-list{
     width:80%;
     display: grid;
-    grid-template-columns: repeat(2,450px);
+    grid-template-columns: repeat(2,430px);
     grid-template-rows: auto;
   
     grid-gap: 40px;
@@ -106,11 +106,10 @@ transform: scale(1.1);
     height: 100%;
 } */
 
-.work:hover {
-    
+.hovering:hover{
     border-bottom:15px  solid #1660a5;
-     
-    } 
+}
+
 
 
 @media  all and (max-width:780px){
