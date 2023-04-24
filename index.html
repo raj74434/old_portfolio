@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!--  Ids are remaining from projects   -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,15 +31,15 @@
 
         <span id="rightmenu">
             <ul id="sidemenu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skill">Skills</a></li>
-                <li><a href="#work">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="https://drive.google.com/file/d/1t1Mu2gSaumKBlH_aOplZBDtwG9F2k8Vs/view?usp=sharing" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" style="margin-right:6px" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                 <li class="nav-link.home" ><a  href="#home">Home</a></li>
+                <li class="nav-link.about" ><a href="#about">About Me</a></li>
+                <li class="nav-link.skills"><a href="#skills">Skills</a></li>
+                <li class="nav-link.projects"><a href="#projects">Projects</a></li>
+                <li class="nav-link.contact"><a href="#contact">Contact</a></li>
+                <li class="nav-link.resume"><a href="https://drive.google.com/file/d/1t1Mu2gSaumKBlH_aOplZBDtwG9F2k8Vs/view?usp=sharing" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" style="margin-right:6px" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
                     <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
                     <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
-                </svg>Resume</a></li>
+                </svg>Resume</a></li> 
 
                 <i class=" fas fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()" style="color: white;"></i>
 
@@ -61,7 +61,7 @@
         <div class="max-width">
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Raj Gupta</div>
+                <div id="user-detail-name" class="text-2">Raj Gupta</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
                 
                 <a class="resume_btn" style="margin-left: 50px;"
@@ -80,13 +80,13 @@
         <div class="max-width">
             <h2 class="title">About Me</h2>
             <div class="about-content">
-                <div class="column left">
+                <div  class="home-img" class="column left">
                     <img style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;" src="images/profile_pic.jpg" alt="">
                 </div>
                 <div class="column right">
                     <div class="text" style="color: black; ">I'm Raj Gupta and I'm a <span class="typing-2"
                             style="margin-bottom: 10px;"></span></div>
-                    <p  style="margin-bottom: 10px; line-height: 30px;font-family: sans-serif;font-weight: 500;font-size: 20px;">Aspiring Java Backend Developer with a proficient in
+                    <p id="user-detail-intro"  style="margin-bottom: 10px; line-height: 30px;font-family: sans-serif;font-weight: 500;font-size: 20px;">Aspiring Java Backend Developer with a proficient in
                         Aspiring Java Backend Developer with proficiency in Java, Spring Boot,
                          SQL, Git, AWS, HTML, CSS, Javascript, Dart, and Object-oriented,
                           design Self-motivated and curious, with a keen interest in building 
@@ -311,14 +311,14 @@
                     <h1 class="sub-title">Contact Me</h1>
 
                     <div class="social-icons">
-                        <a style="text-decoration: none; " href="mailto:rajgupta74434@gmail.com"
+                        <a id="contact-email" style="text-decoration: none; " href="mailto:rajgupta74434@gmail.com"
                             rel="noopener noreferrer"> <i class="fa-solid fa-envelope"></i>
                             rajgupta74434@gmail.com</a>
-                        <a style="text-decoration: none; " href="tel:8851128824" rel="noopener noreferrer"><i
+                        <a id="contact-phone" style="text-decoration: none; " href="tel:8851128824" rel="noopener noreferrer"><i
                                 class="fas fa-phone-square-alt"></i> +91-8851128824 </a><br>
-                        <a href="https://www.linkedin.com/in/raj-gupta-075648119" target="_blank"
+                        <a  id="contact-linkedin" href="https://www.linkedin.com/in/raj-gupta-075648119" target="_blank"
                             rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a><br>
-                        <a href="https://github.com/raj74434" target="_blank" rel="noopener noreferrer"><i
+                        <a id="contact-github" href="https://github.com/raj74434" target="_blank" rel="noopener noreferrer"><i
                                 class="fa-brands fa-github"></i> GitHub</a>
 
                     </div>

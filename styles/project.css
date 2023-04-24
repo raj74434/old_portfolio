@@ -20,7 +20,7 @@
 }
 .project-list{
     width:80%;
-    border: solid red;
+    /* border: solid red; */
     display: grid;
     grid-template-columns: repeat(2,350px);
     /* grid-template-rows: repeat(auto,800px); */
