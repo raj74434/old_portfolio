@@ -16,20 +16,20 @@
         loop: true,
       });
     
-      const myCarouselElement = document.querySelector("#carouselExampleFade");
-  const carousel = new bootstrap.Carousel(myCarouselElement, {
-      interval: 2500,
-  });
+//       const myCarouselElement = document.querySelector("#carouselExampleFade");
+//   const carousel = new bootstrap.Carousel(myCarouselElement, {
+//       interval: 2500,
+//   });
   
   
   let sidemeu = document.querySelector("#sidemenu");
   
-  function openmenu() {
-      sidemeu.style.right = "0";
-  }
+//   function openmenu() {
+//       sidemeu.style.right = "0";
+//   }
   
-  function closemenu() {
-      sidemeu.style.right = "-20px";
-  }
+//   function closemenu() {
+//       sidemeu.style.right = "-20px";
+//   }
   
   

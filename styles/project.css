@@ -1,6 +1,6 @@
 
 
-#work{
+#projects{
    
     width: 100%;
     height: 100%;
@@ -20,8 +20,10 @@
 }
 .project-list{
     width:80%;
+    border: solid red;
     display: grid;
     grid-template-columns: repeat(2,350px);
+    /* grid-template-rows: repeat(auto,800px); */
     grid-template-rows: auto;
   
    
@@ -54,8 +56,18 @@
 }
 
 
-.work img{
-    width: 100%;
+#work img{
+    width: 400px;
+    margin-top: 50px;
+    /* border: solid green; */
+    border-radius: 10px;
+    display: block;
+    transition: transform(0.5s);
+}
+#projects img{
+    width: 400px;
+    margin-top: 50px;
+    /* border: solid green; */
     border-radius: 10px;
     display: block;
     transition: transform(0.5s);
