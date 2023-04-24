@@ -29,7 +29,7 @@
             
         }
     
-        .slide{
+        .skills-card{
             width: 160px;
             height: 150px;
             box-shadow: 0px 10px 20px -5px rgb(7, 7, 7);
@@ -42,11 +42,11 @@
         
         }
     
-        .slide:hover{
+        .skills-card:hover{
             transform: translateY(-6px);
         }
         
-        .slide img{
+        .skills-card img{
             width: 100%;
             height: 100%;
             border-radius: 5px;
@@ -122,7 +122,7 @@
         
         }
     
-        .slide{
+        .skills-card{
             width: 110px;
             height: 90px;
             
@@ -142,7 +142,7 @@
             
             }
         
-            .slide{
+            .skills-card{
                 width: 80px;
                 height: 60px;
                 
