@@ -1,0 +1,35 @@
+#gitHub{
+    /* border: solid green; */
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #1b1e25;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#gitHub img{
+    size: 100%;
+    height: 300px;
+    /* border: solid red; */
+}
+
+#github-streak-stats{
+background-color: #1b1e25;
+align-items: center;
+height: 70px;
+}
+
+#github-stats-card{
+    display: flex;
+    /* border: solid red; */
+    background-color: #1b1e25;
+    align-items: center;
+    
+}
+#github-stats-card img{
+    height: 350px;
+    margin-left: 28%;
+    padding-bottom: 70px;
+    
+}
