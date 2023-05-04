@@ -40,16 +40,23 @@
                 <li ><a class="nav-link projects" href="#projects">Projects</a></li>
                 <li ><a class="nav-link contact" href="#contact">Contact</a></li>
 
-                <li  id="resume-button-2" class="nav-link.resume"><a href="https://drive.google.com/file/d/1t1Mu2gSaumKBlH_aOplZBDtwG9F2k8Vs/view?usp=sharing" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" style="margin-right:6px" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                <li  id="resume-button-2" class="nav-link resume"><a 
+                   
+                    href="images/Raj_Gupta_Resume.pdf" download>Resume<i class="fa-solid fa-download"></i>
+                </a>
+
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" style="margin-right:6px" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
                     <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
                     <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
-                </svg>Resume</a></li> 
+                    </svg>       -->
+                </a>
+                </li> 
 
                 <i class=" fas fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()" style="color: white;"></i>
 
             </ul>
         </span>
-        <!-- =====  Span====== nav bar ====== -->
+        <!-- =====  Span  ====== nav bar ====== -->
 
         
         <i class=" fas fa-solid fa-bars" onclick="openmenu()" style="color: white;"></i>
@@ -69,7 +76,7 @@
                 <div id="user-detail-name" class="text-2">Raj Gupta</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
                 
-                <a class="resume_btn" style="margin-left: 50px;"
+                <a id="resume-link-1"  class="resume_btn" style="margin-left: 50px;"
                 href="https://drive.google.com/file/d/1t1Mu2gSaumKBlH_aOplZBDtwG9F2k8Vs/view?usp=sharing"
                  target="_blank" >
                  <svg xmlns="http://www.w3.org/2000/svg" style="margin-right:6px ;" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
@@ -80,7 +87,9 @@
         </div>
     </section>
 
-    <!-- About me -->
+    <!-- --------------------About me --------------------------->
+
+
     <section  id="about" class="about section" >
         <div class="max-width">
             <h2 class="title">About Me</h2>
@@ -98,8 +107,10 @@
                           user-centric products. Looking forward to honing my skills in a 
                           challenging work environment.
                         </p>
-                    <a class="resume_btn1" href="images/Raj_Gupta_Resume.pdf" download>Resume <i
-                            class="fa-solid fa-download"> </i></a>
+                    <a id="resume-link-2" class="resume_btn1" href="images/Raj_Gupta_Resume.pdf" download>Resume 
+                        <i
+                            class="fa-solid fa-download"> </i>
+                        </a>
                 </div>
             </div>
         </div>
@@ -122,7 +133,8 @@
                 <img  class="skills-card-img" src="images/Java.jpg" alt="Java">
                 
             </div>
-            <h2 class="skills-card-name">Java</h2>
+            <div class="skills-card-name"></div>
+            <h2 >Java</h2>
         </div>
 
         <div>
@@ -130,7 +142,8 @@
                 <img  class="skills-card-img" src="images/spring-finl.svg" alt="Spring Boot">
 
             </div>
-            <h2 class="skills-card-name">Spring</h2>
+            <div class="skills-card-name"></div>
+            <h2 >Spring</h2>
         </div>
 
         <div>
@@ -138,6 +151,7 @@
                 <img  class="skills-card-img" src="images/mysql-logo.png" alt="MySQL">
 
             </div>
+            <div class="skills-card-name"> </div>
             <h2 class="skills-card-name">My SQL</h2>
         </div>
 
@@ -146,6 +160,8 @@
                 <img  class="skills-card-img" src="images/hibernate-logo.svg" alt="Hibernate">
 
             </div>
+            <div class="skills-card-name"></div>
+
             <h2 class="skills-card-name">Hibernate</h2>
         </div>
 
@@ -154,6 +170,7 @@
                 <img  class="skills-card-img" src="images/aws.png" alt="AWS">
 
             </div>
+            <div class="skills-card-name"></div>
             <h2 class="skills-card-name">AWS</h2>
         </div>
 
@@ -162,6 +179,7 @@
                 <img  class="skills-card-img" src="images/javascript.png" alt="JavaScript">
 
             </div>
+            <div class="skills-card-name"></div>
             <h2 class="skills-card-name">JavaScript</h2>
         </div>
 
@@ -169,14 +187,16 @@
             <div class="skills-card" class="slide">
                 <img  class="skills-card-img" src="images/HTML logo.png" alt="HTML">
 
-            </div>
-            <h2 class="skills-card-name">HTML</h2>
+            </div >
+            <div class="skills-card-name"></div>
+            <div class="skills-card-name"></div><h2 >HTML</h2>
         </div>
         <div>
             <div class="skills-card" class="slide">
                 <img  class="skills-card-img" src="images/css-3.jpg" alt="CSS">
 
             </div>
+            <div class="skills-card-name"></div>
             <h2 class="skills-card-name">CSS</h2>
         </div>
 
@@ -185,6 +205,7 @@
                 <img  class="skills-card-img" src="images/datastructure.jpg" alt="DSA">
 
             </div>
+            <div class="skills-card-name"></div>
             <h2 class="skills-card-name">DSA</h2>
         </div>
 
@@ -193,6 +214,7 @@
                 <img  class="skills-card-img" src="images/git.png" alt="Git">
 
             </div>
+            <div class="skills-card-name"></div>
             <h2 class="skills-card-name">GIT</h2>
         </div>
 
@@ -252,16 +274,16 @@
 
     </div>
 
-    <div >
+    <div id="github-stats-card_div">
        <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=raj74434&show_icons=true&theme=white"/>
     </div>
 
-    <div style="background-color: #1b1e25;" id="git_cal" class="testimonials paralax-mf bg-image"  class="react-activity-calendar" >
+    <div class="react-activity-calendar" style="background-color: #1b1e25;" id="git_cal" class="testimonials paralax-mf bg-image"   >
 
         <h1 style="text-align: center;padding-bottom: 30px;">
             GitHub Calendar
         </h1>
-        <div class="calendar" style="width: 80%;background-color: white;color: black;">
+        <div class="calendar react-activity-calendar" style="width: 80%;background-color: white;color: black;">
             <!-- Loading stuff -->
             Loading the data just for you.
         </div>

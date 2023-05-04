@@ -27,9 +27,22 @@ height: 70px;
     align-items: center;
     
 }
-#github-stats-card img{
-    height: 350px;
+#github-stats-card {
+    height: 100%;
+    /* border: solid purple; */
+    /* height: 350px; */
     margin-left: 28%;
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
     
+}
+
+
+#github-stats-card_div{
+    display: flex;
+    align-items: center;
+   background-color: #1b1e25;
+    /* border: solid yellow; */
+    height: 350px;
+    /* margin-left: 28%; */
+    padding-bottom: 70px;
 }
