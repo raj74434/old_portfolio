@@ -163,3 +163,51 @@ height: 70px;
         
         }
 
+        @media  all and (max-width:450px){
+
+
+
+
+            #gitHub{
+              
+                height: auto;
+                padding-top: 80px;
+                padding-bottom: 80px;
+                background-color: #1b1e25;
+                display: block;
+                align-content: center;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+            
+            #gitHub div{
+               
+            }
+            
+            #gitHub img{
+                size: 100%;
+                height: 100px;
+                /* border: solid red; */
+            }
+            
+            #github-stats-card_div{
+                display: flex;
+                align-items: center;
+               background-color: #1b1e25;
+               
+                height: 160px;
+               
+                padding-bottom: 70px;
+            }
+            
+            #github-stats-card {
+                height: 100%;
+                /* border: solid purple; */
+                /* height: 350px; */
+                
+                /* padding-bottom: 70px; */
+                
+            }
+            
+            }
+
