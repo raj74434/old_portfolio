@@ -134,7 +134,7 @@ transform: scale(1.1);
 }
 
 
-.layer h3{
+/* .layer h3{
     font-weight: 500;
     margin-bottom: 7px;
 }
@@ -143,6 +143,49 @@ transform: scale(1.1);
     display: none;
     font-weight: 500;
     font-size: 14px;
-}
+} */
 
 }
+@media  all and (max-width:400px){
+
+
+    .project-list{
+        /* border: solid yellow; */
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+    
+    #projectImg{
+        height: 100px;
+       width: 200px;
+     cursor: pointer;
+     margin-bottom: 30px;
+    }
+
+    .project-card{
+        position: relative;
+        text-align: center;
+        /* display: flex; */
+    }
+
+    #projectImg{
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        /* border: solid red; */
+    }
+
+    #projectImg img{
+        width: 100%;
+    }
+    
+    .layer{
+        margin-top: 160px;
+    }
+    
+    
+    }

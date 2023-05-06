@@ -168,4 +168,8 @@
                     row-gap: 15px;
                     
                 }
+                .skills-card-name{
+                    font-size: 15px;
+                    /* -ms-text-size-adjust: auto; */
+                }
             }
