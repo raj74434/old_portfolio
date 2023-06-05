@@ -1,12 +1,10 @@
 #gitHub{
-    /* border: solid green; */
     height: auto;
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: #1b1e25;
     display: flex;
     grid-template-columns: repeat(2,1fr);
-   
     justify-content: space-evenly;
 }
 
@@ -14,7 +12,6 @@
     size: 100%;
     height: 100%;
     width: 100%;
-    /* border: solid red; */
 }
 
 #github-streak-stats{
@@ -25,17 +22,13 @@ height: 70px;
 
 #github-stats-card{
     display: flex;
-    /* border: solid red; */
     background-color: #1b1e25;
     align-items: center;
     
 }
 #github-stats-card {
     height: 100%;
-    /* border: solid purple; */
-    /* height: 350px; */
     margin-left: 28%;
-    /* padding-bottom: 70px; */
     
 }
 
@@ -43,10 +36,8 @@ height: 70px;
 #github-stats-card_div{
     display: flex;
     align-items: center;
-   background-color: #1b1e25;
-    /* border: solid yellow; */
+   background-color: #1b1e25;   
     height: 350px;
-    /* margin-left: 28%; */
     padding-bottom: 70px;
 }
 
@@ -66,24 +57,18 @@ height: 70px;
         size: 100%;
         height: 100%;
         width: 100%;
-        /* border: solid red; */
     }
     
     #github-stats-card_div{
         display: flex;
         align-items: center;
        background-color: #1b1e25;
-        /* border: solid yellow; */
         height: 260px;
-        /* margin-left: 28%; */
         padding-bottom: 70px;
     }
 }
 
 @media  all and (max-width:780px){
-
-
-
 
     #gitHub{
       
@@ -105,16 +90,13 @@ height: 70px;
         size: 100%;
         width:100%;
         height: 140px;
-        /* border: solid red; */
     }
     
     #github-stats-card_div{
         display: flex;
         align-items: center;
        background-color: #1b1e25;
-        /* border: solid yellow; */
         height: 180px;
-        /* margin-left: 28%; */
         padding-bottom: 70px;
     }
     
@@ -122,9 +104,6 @@ height: 70px;
     }
 
     @media  all and (max-width:550px){
-
-
-
 
         #gitHub{
           
@@ -146,35 +125,25 @@ height: 70px;
             size: 100%;
             height: 140px;
             width: 100%;
-            /* border: solid red; */
         }
         
         #github-stats-card_div{
             display: flex;
             align-items: center;
-           background-color: #1b1e25;
-           
-            height: 180px;
-           
+           background-color: #1b1e25;      
+            height: 180px;     
             padding-bottom: 70px;
         }
         
         #github-stats-card {
             height: 100%;
             width: 100%;
-            /* border: solid purple; */
-            /* height: 350px; */
-            margin-left: 11%;
-            /* padding-bottom: 70px; */
-            
+            margin-left: 11%;      
         }
         
         }
 
         @media  all and (max-width:450px){
-
-
-
 
             #gitHub{
               
@@ -196,34 +165,24 @@ height: 70px;
                 size: 100%;
                 height: 100px;
                 width: 100%;
-                /* border: solid red; */
             }
             
             #github-stats-card_div{
                 display: flex;
                 align-items: center;
                background-color: #1b1e25;
-               
                 height: 160px;
-               /* width:100%; */
                 padding-bottom: 70px;
             }
             
             #github-stats-card {
                 height: 100%;
                 width: 100%;
-                /* border: solid purple; */
-                /* height: 350px; */
-                
-                /* padding-bottom: 70px; */
-                
             }
             
             }
 
             @media  all and (max-width:240px){
-
-
                 #github-stats-card_div{
                     display: flex;
                     align-items: center;
