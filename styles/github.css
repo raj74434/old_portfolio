@@ -98,7 +98,7 @@ height: 70px;
     }
     
     #gitHub div{
-        margin-left: 10%;
+        /* margin-left: 5%; */
     }
     
     #gitHub img{
@@ -139,7 +139,7 @@ height: 70px;
         }
         
         #gitHub div{
-            margin-left: 11%;
+            /* margin-left: 11%; */
         }
         
         #gitHub img{
@@ -205,7 +205,7 @@ height: 70px;
                background-color: #1b1e25;
                
                 height: 160px;
-               
+               /* width:100%; */
                 padding-bottom: 70px;
             }
             
@@ -219,5 +219,20 @@ height: 70px;
                 
             }
             
+            }
+
+            @media  all and (max-width:240px){
+
+
+                #github-stats-card_div{
+                    display: flex;
+                    align-items: center;
+                   background-color: #1b1e25;
+                   
+                    height: 130px;
+                   width:100%;
+                    padding-bottom: 70px;
+                }
+
             }
 
